@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+html{
+    height: 100%;
+    
+    }
+        body{
+    background-color: #728c69 ;
+    font-family:  'Nunito Sans', sans-serif;
+    outline: none;
+    flex-direction:column;
+ min-height: 100%;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    
+    }
+    /* navbar */
+    #madenavbar .navbar-brand{
+        color:white;
+        float: left;
+        margin-right:200px;
+        text-align: center;
+        font-family: 'Niconne', cursive;
+        font-size: 30px;
+        display: flex;
+        flex-direction:column;
+    
+        position: relative;
+        font-weight: 700;
+        
+    
+        letter-spacing: 2px;
+        transition:0.6s;
+    
+    
+    }
+    #madenavbar .navbar-brand:hover{
+        color:#444;
+      
+        letter-spacing: 20px;
+    }
+    
+    
+    
+    #madenavbar .navbar-brand span{
+        
+    font-family: 'Josefin Slab', serif;
+    }
+    #madenavbar .nav-link {
+    text-align: right;
+    color:white;
+    font-family: 'Josefin Slab', serif;
+    margin-left: 50px;
+    }
+    #madenavbar .nav-link:hover{
+        color:#444;
+        
+        font-size: 20px;
+    }
+    
+    #navlinks i{
+        color:white;
+    }
+    
+  
+    
+
+    
+   
+    
+.menu-icon{
+    margin-top: 3rem;
+    cursor: pointer;
+    outline: none;
+ }
+ .line{
+     height: .2rem;
+     width:2.5rem;
+     background-color: #fff;
+     margin-bottom: .6rem;
+     
+ }
+ 
+ 
+ .line-1, .line-3 {
+ width: 1.8rem;
+ transition: all .4s;
+ }
+ 
+ .menu-icon:hover .line{
+     width: 2.5rem;
+ }
+     /* end of navbar */
+     
+    
+    .banner{
+ height:100vh;
+    background: linear-gradient(to top,rgba(95, 32, 32, 0.3),rgba(0,0,0,.1))
+    ,url(e9.jpg) center no-repeat fixed;
+    background-size: cover;
+    color: white;
+    
+    
+    }
+   
+
+    .banner-para{
+        font-size: 1.8rem;
+        text-align: center;
+        margin-top:10rem;
+        width: 30rem;
+    }
+    .banner-heading{
+      
+        
+        font-family: 'Niconne', cursive;
+    
+       
+    }
+    
+   
+    .footer-heading{
+        font-size: 2.5rem;
+        font-weight: 300;
+       
+        color: #fff;
+        margin:1rem 0 3rem 0;
+    
+    }
+    
+    .gallery{
+        height: 100vh;
+        margin-left: 2rem;
+       
+        /* max-width: 80rem; */
+        
+    
+    }
+    .gallery-heading{
+        text-align: center;
+        color: #fff;
+        margin-top: 2rem;
+        font-family: 'Niconne', cursive;
+    }
+    
+    .image-wrapper{
+        width: 18rem;
+        margin: 1rem;
+        margin-top: 8rem;
+        overflow: hidden;
+        
+    }
+    
+    .footer-image{
+        width: 100%;
+        transition: all .5s;
+        height: 100%;
+        backface-visibility: hidden;
+    }
+    
+    .gallery-images{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    .footer-image:hover{
+        transform: scale(1.3);
+        opacity: .8;
+    }
+    
+   
+    
+  
+
+/* about us */
+
+.about-us{
+    height: 100vh;
+    display: flex;
+    background-color: #ddd;
+}
+
+.about-us-content{
+    flex:0 1 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    box-sizing: border-box;
+}
+.about-us-heading{
+    margin-top: 8rem;
+    font-size: 3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Niconne', cursive;
+    text-transform: lowercase;
+    color:#555;
+}
+
+.small-underline{
+    height:.1rem;
+    width: 9rem;
+    margin:0 auto 1rem auto;
+    background-color:#444;
+
+}
+.big-underline{
+    height:.1rem;
+    width: 20rem;
+    background-color: #444;
+
+}
+
+
+.sub-heading{
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    margin-top: 2rem;
+    color:#444;
+}
+
+.about-us-paragraph{
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.6rem;
+    margin-bottom: 5rem;
+}
+
+.about-us-btn{
+    width: 10rem;
+    padding: .3rem .2rem;
+    font-size: .7rem;
+    text-transform: uppercase;
+    color: #444;
+    background-color: transparent;
+    border: .1rem solid #444;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.about-us-btn:hover{
+     margin-left: 1.5rem;
+     transition: margin-left .4s;
+}
+
+
+.about-us-images{
+    flex:1 1 ;
+    position: relative;
+}
+
+.image{
+    width: 15rem;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    box-shadow: 0 3rem 6rem rgba(0,0,0,.4);
+    border-radius: .4rem;
+    border: .2rem solid #444;
+
+}
+
+.image-3{
+    
+    transform: translate(-80%, -80%);
+}
+.image-2{
+    transform: translate(-40%, -50%);
+}
+
+.image-1{
+    transform: translate(-10%, -20%);
+}
+
+
+    /* footer */
+
+   
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bfccb0;
+    padding: 4rem;
+    
+    
+}
+
+.footer-heading{
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #444;
+    margin:1rem 0 3rem 0;
+
+}
+
+.footer-list{
+    list-style: none;
+    padding: 0;
+    color: #444;
+
+}
+.footer-list-item{
+    margin-bottom: 2rem;
+
+}
+
+.footer-list-link{
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #444;
+}
+
+.footer-list-link:hover{
+    font-size: 1.4rem;
+    color:#728c69;
+    text-decoration: none;
+    
+}
+
+.contact p{
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 4rem;
+
+}
+
+.footer-form{
+    display: flex;
+
+}
+
+.footer-input{
+    width: 25rem;
+    padding: 1rem;
+    font-size: 1.8rem;
+    color: #444;
+    outline: none;
+}
+
+
+
+    /* end of footer */
+
+    @media(max-width:1400px){
+        .main-part{
+            flex-direction: column;
+            
+        }
+        .footer-list{
+            display: flex;
+        }
+        
+        .footer-list-item{
+            margin-right: 3rem;
+        }
+        
+        }
+        @media(max-width:1200px){
+            .about-us{
+                flex-direction: column;
+                padding-bottom: 25rem;
+            }
+            .about-us-content{
+                margin-bottom: 13rem;
+            }
+        
+            .image{
+               width:25rem;
+            }
+        }
+        @media(max-width:750px){
+        
+            .footer-list{
+                display: block;
+        
+            }
+        
+        }
+        
+        @media(max-width:900px){
+          
+            .banner{
+              
+                text-align: left;
+        
+            }
+            .banner-para{
+                margin-top: 7rem;
+                width: 18rem ;
+            }
+           
+            .banner-heading{
+              
+                width: 20rem ;
+            }
+        
+            
+        
+           
+            .about-us{
+                height: 55rem;
+            }
+                
+           .about-us-heading{
+               font-size: 3rem;
+               margin-top: -2rem;
+               width: 30rem;
+               text-align: center;
+           }
+           .about-us-paragraph{
+               width: 20rem;
+           }
+           .sub-heading{
+               width:30rem;
+               text-align: center;
+           }
+        
+           .image{
+              
+               width: 10rem;
+           }
+           .about-us-images{
+               margin-top: -18rem;
+           }
+           .footer-input{
+            width: 20rem;
+        }
+        .gallery{
+         max-width: 100rem;
+         margin-bottom: 38rem;
+     
+     }
+       .image-wrapper{
+         width: 16rem;
+         margin-top: 1rem;
+     }
+        
+        .footer-input{
+               width: 14rem;
+              
+           }
+         
+        
+        }
+        
